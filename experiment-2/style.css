@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f6f7fb;
+}
+
+
+.navbar {
+    background-color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #2563eb;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.auth a {
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.login {
+    border: 1px solid #2563eb;
+    color: #2563eb;
+}
+
+.register {
+    background-color: #f97316;
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    color: #555;
+}
+
+
+.search-box {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-box input {
+    padding: 12px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.search-box button {
+    padding: 12px 25px;
+    border: none;
+    background-color: #2563eb;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.offer {
+    background-color: #fff1dc;
+    margin: 40px auto;
+    padding: 30px;
+    width: 80%;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.offer .small {
+    font-size: 12px;
+    color: #777;
+}
+
+.offer h2 {
+    margin: 10px 0;
+}
+
+.offer button {
+    padding: 10px 20px;
+    background-color: #a16207;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 40px;
+    justify-content: center;
+}
+
+.cat {
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 12px;
+    font-size: 14px;
+    border: 1px solid #eee;
+}
